@@ -33,3 +33,6 @@ test-timings.json
 # Vercel
 .vercel
 .now
+
+# Export
+out
