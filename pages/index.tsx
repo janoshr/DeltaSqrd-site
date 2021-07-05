@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Delta Sqrd</title>
+        <title>DeltaSqrd</title>
         <link rel="icon" href="/images/Yi0Byu2n_o.png" />
       </Head>
 
