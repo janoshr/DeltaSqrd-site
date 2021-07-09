@@ -6,7 +6,6 @@ export default function Solution() {
     <Layout>
       <Head>
         <title>DeltaSqrd | Solution</title>
-        <link rel="icon" href="/images/logo.png" />
       </Head>
       <h1 className="display-2 text-center">
         Solution

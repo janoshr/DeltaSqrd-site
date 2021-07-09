@@ -6,7 +6,6 @@ export default function ContactUs() {
     <Layout>
       <Head>
         <title>DeltaSqrd | Contact Us</title>
-        <link rel="icon" href="/images/logo.png" />
       </Head>
       <h1 className="display-2 text-center">
         Contact Us

@@ -6,9 +6,11 @@ export default function Nav(){
   return(
     <nav className="navbar navbar-expand-lg navbar-light shadow">
       <div className="container">
-        <a className="navbar-brand">
-          <Image src={logo} alt="DeltaSqrd logo" width={32} height={32} unoptimized />
-        </a>
+        <Link href="/">
+          <a className="navbar-brand">
+            <Image src={logo} alt="DeltaSqrd logo" width={32} height={32} unoptimized />
+          </a>
+        </Link>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link href="/">
@@ -16,7 +18,7 @@ export default function Nav(){
             </Link>
           </li>
           <li className="nav-item">
-            <Link href="/blog">
+            <Link href="/posts">
               <a className="nav-link">Blog</a>
             </Link>
           </li>
