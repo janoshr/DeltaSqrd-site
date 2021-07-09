@@ -1,22 +1,17 @@
-import Nav from '../../components/nav'
+import Layout from '../../components/layout'
 import Head from 'next/head'
 
 export default function ContactUs() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>DeltaSqrd | Contact Us</title>
-        <link rel="icon" href="/images/Yi0Byu2n_o.png" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
-      <main>
-        <Nav />
-        <div className="container mt-5">
-          <h1 className="display-2 text-center">
-            Contact Us
-          </h1>
-          <a href="external@deltasqrd.com">external@deltasqrd.com</a>
-        </div>
-      </main>
-    </>
+      <h1 className="display-2 text-center">
+        Contact Us
+      </h1>
+      <a href="external@deltasqrd.com" className="link-primary">external@deltasqrd.com</a>
+    </Layout>
   )
 }

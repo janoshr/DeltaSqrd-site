@@ -1,36 +1,30 @@
-import Nav from '../../components/nav'
+import Layout from '../../components/layout'
 import Head from 'next/head'
 
 export default function Solution() {
   return (
-    <>
+    <Layout>
       <Head>
         <title>DeltaSqrd | Solution</title>
-        <link rel="icon" href="/images/Yi0Byu2n_o.png" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
-      <main>
-        <Nav />
-        <div className="container mt-5">
-          <h1 className="display-2 text-center">
-            Solution
-          </h1>
-          <hr />
-          <div className="row mt-4">
-            <div className="col">
-              <h1>Solution 1</h1>
-              {
-                // content for solution 1
-              }
-            </div>
-            <div className="col">
-              <h1>Solution 2</h1>
-              {
-                // content for solution 2
-              }
-            </div>
-          </div>
+      <h1 className="display-2 text-center">
+        Solution
+      </h1>
+      <div className="row mt-4">
+        <div className="col">
+          <h1>Solution 1</h1>
+          {
+            // content for solution 1
+          }
         </div>
-      </main>
-    </>
+        <div className="col">
+          <h1>Solution 2</h1>
+          {
+            // content for solution 2
+          }
+        </div>
+      </div>
+    </Layout>
   )
 }

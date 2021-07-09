@@ -9,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <title>DeltaSqrd</title>
-        <link rel="icon" href="/images/Yi0Byu2n_o.png" />
+        <link rel="icon" href="/images/logo.png" />
       </Head>
 
       <main>
